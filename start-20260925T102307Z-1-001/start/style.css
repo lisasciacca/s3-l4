@@ -8,6 +8,7 @@ body {
   margin: 30px auto;
   padding: 20px;
   color: #1b2845;
+  background-color: whitesmoke;
 }
 
 h1, h2 {
@@ -48,13 +49,17 @@ h1, h2 {
 
 .numero {
   padding: 12px;
-  background: #f0f0f0;
+  background: #e9edef;
   text-align: center;
   border-radius: 4px;
 }
 
 .uscito {
   background: #0066cc;
-  color: #ffffff;
+  color:whitesmoke;
   font-weight: bold;
+}
+
+#cronologia {
+  text-align: center;
 }
