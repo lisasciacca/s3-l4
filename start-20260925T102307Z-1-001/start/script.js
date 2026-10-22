@@ -66,14 +66,16 @@ const estrai = () => {
     }
   });
 
- // numero estratto
+  // Ultimo numero estratto
   if (lastNum) {
     lastNum.textContent = numEstratto;
   }
   
   rendiCronologia();
 
+  fineAlert();
   return numEstratto;
+ 
 };
 
 // Reset
@@ -92,4 +94,14 @@ const resettaTabellone = () => {
     cronologiaDiv.textContent = '';
   }
 
+  // Pulisce l'ultimo numero
+  if (lastNum) {
+    lastNum.textContent = '';
+  }
+};
+
+const fineAlert = () => {
+  if (usciti.length === 90) {
+    alert("Tutti i numeri sono stati estratti");
+  }
 };
